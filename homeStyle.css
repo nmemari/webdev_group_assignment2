@@ -42,10 +42,12 @@ body {
 }
 
 .nav-items ul li {
+    transition: 300ms;
     margin-left: 50px;
 }
 
 .nav-items ul li:hover {
+    transform: scale(1.1);
     text-decoration: underline white solid;
 }
 
@@ -125,11 +127,11 @@ h2{
   
   }
 
-
 .card:hover{
     border: 5px solid #EAEBEB; 
     transform: scale(1.1);
 }
+
 .pic{
     aspect-ratio: 1;
     height: 100%;
@@ -204,7 +206,7 @@ h2{
 }
 
 .footer{
-    width: 100%;
+    width: 97%;
     height: 50px;
     background-color: #2F3061;
     margin-top: 70px;

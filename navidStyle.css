@@ -54,7 +54,12 @@ body {
     text-decoration: none;
 }
 
+.nav-items ul li a h1 {
+    transition: 300ms;
+}
+
 .nav-items ul li a h1:hover {
+    transform: scale(1.1);
     text-decoration: underline white solid;
 }
 
