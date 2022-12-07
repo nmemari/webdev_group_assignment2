@@ -1,0 +1,788 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #272727;
+}
+
+a {
+    color: rgb(22, 22, 22);
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #272727;
+    height: 100%;
+    margin: 0px;
+    font-family: 'Nunito';
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2F3061;
+    margin: 0px;
+    font-family: 'Nunito';
+    padding: 10px;
+    z-index: 999999;
+    font-size: 20px;
+    font-weight: bolder;
+    
+    
+}
+.nav-items{
+    color: #EAEBEB;
+}
+.nav-items ul {
+    display: flex;
+    list-style: none;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.nav-items ul li {
+    margin-left: 50px;
+}
+
+.nav-items ul li:hover {
+    text-decoration: underline white solid;
+}
+
+.nav img {
+    height: 70px;
+}
+
+.nav .logo {
+    display: flex;
+}
+
+.nav .logo h1 {
+    margin-left: 20px;
+}
+
+h1{
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+}
+h2{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+.introContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 10px;
+    margin-top: 50px;
+}
+    
+
+.introBox{
+    width: 868px;
+    height: 267px;
+    background: #8A8E91;
+    border-radius: 20px;
+    margin: 10px;
+   
+    
+
+    
+
+}
+
+.introPic{
+    width: px;
+    height: 250px;
+    border: 10px solid #2F3061;
+    border-radius: 10px;
+    
+
+}
+
+
+
+.name{
+   
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    color: #2F3061;
+    padding: 5px;
+    margin-top: 2%; 
+
+
+}
+
+.name {
+    --b: 0.1em;  
+    --c: #2F3061; 
+    color: #2F3061;
+    padding-block: var(--b);
+    background: 
+      linear-gradient(var(--c) 50%,#000 0) 0% calc(100% - var(--_p,0%))/100% 200%,
+      linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
+  }
+.name:hover {
+    --_p: 100%;
+    --_s: .3s;
+
+  }
+
+.introSentence{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    margin-top: -5%; 
+    padding: 5px;
+    color: #2F3061;
+   
+}
+
+.introParagraph{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: -1%;  
+    padding: 5px;
+    color: #2F3061;
+  
+    
+
+   
+
+
+}
+
+
+.hobbiesContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+
+   
+}
+
+.hobbiesTitle{
+    font-family: 'Nunito';
+    font-size: 44px;
+    color: #EAEBEB;
+    justify-content: center;
+    margin: inherit;
+    text-align: center;
+
+
+}
+
+
+.hobbies1{
+    background: #2F3061;
+    border-radius: 10px;
+    Width: 415px;
+    Height: 682px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.baking{
+    position: relative;
+    width: 299px;
+    
+}
+.bakingPic{
+    filter: grayscale(50%);
+    height: 299px;
+    width: 299px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 1px;
+}
+
+.bakingOverlay{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 299px;
+    height: 299px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #EAEBEB;
+    font-family: 'Nunito';
+    text-align: center;
+    margin-top: 10px;
+    font-size: 70px;
+    border-radius: 10px;
+    opacity: 0;
+
+}
+
+.bakingOverlay:hover{
+    opacity: 1;
+}
+
+
+
+
+
+.clay{
+    position: relative;
+    width: 299px;
+    
+}
+.clayPic{
+    filter: grayscale(50%);
+    height: 299px;
+    width: 299px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 1px;
+}
+
+.clayOverlay{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 299px;
+    height: 299px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #EAEBEB;
+    font-family: 'Nunito';
+    text-align: center;
+    margin-top: 10px;
+    font-size: 65px;
+    border-radius: 10px;
+    opacity: 0;
+
+}
+
+.clayOverlay:hover{
+    opacity: 1;
+}
+
+
+
+
+.hobbies2{
+
+    background: #2F3061;
+    border-radius: 10px;
+    Width: 415px;
+    Height: 682px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+    
+}
+
+
+.crochet{
+    position: relative;
+    width: 299px;
+    
+}
+.crochetPic{
+    filter: grayscale(50%);
+    height: 299px;
+    width: 299px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 1px;
+}
+
+.crochetOverlay{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 299px;
+    height: 299px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #EAEBEB;
+    font-family: 'Nunito';
+    text-align: center;
+    margin-top: 10px;
+    font-size: 70px;
+    border-radius: 10px;
+    opacity: 0;
+
+}
+
+.crochetOverlay:hover{
+    opacity: 1;
+}
+
+
+
+.music{
+    position: relative;
+    width: 299px;
+    
+}
+.musicPic{
+    filter: grayscale(50%);
+    height: 299px;
+    width: 299px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 1px;
+}
+
+.musicOverlay{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 299px;
+    height: 299px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #EAEBEB;
+    font-family: 'Nunito';
+    text-align: center;
+    margin-top: 10px;
+    font-size: 70px;
+    border-radius: 10px;
+    opacity: 0;
+
+}
+
+.musicOverlay:hover{
+    opacity: 1;
+}
+
+
+
+
+
+.hobbies3{
+    background: #2F3061;
+    border-radius: 10px;
+    Width: 415px;
+    Height: 682px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+    
+}
+
+
+
+.travel{
+    position: relative;
+    width: 299px;
+    
+}
+.travelPic{
+    filter: grayscale(50%);
+    height: 299px;
+    width: 299px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 1px;
+}
+
+.travelOverlay{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 299px;
+    height: 299px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #EAEBEB;
+    font-family: 'Nunito';
+    text-align: center;
+    margin-top: 10px;
+    font-size: 65px;
+    border-radius: 10px;
+    opacity: 0;
+
+}
+
+.travelOverlay:hover{
+    opacity: 1;
+}
+
+
+.concerts{
+    position: relative;
+    width: 299px;
+    
+}
+.concertPic{
+    filter: grayscale(50%);
+    height: 299px;
+    width: 299px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 1px;
+}
+
+.concertsOverlay{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 299px;
+    height: 299px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #EAEBEB;
+    font-family: 'Nunito';
+    text-align: center;
+    margin-top: 10px;
+    font-size: 65px;
+    border-radius: 10px;
+    opacity: 0;
+
+}
+
+.concertsOverlay:hover{
+    opacity: 1;
+}
+
+
+
+
+.programsContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 1193px;
+    height: 220px;
+    background-color: #8A8E91;
+    border-radius: 20px;
+    padding: 50px;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+}
+  
+
+.programsTitle{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-size: 48px;
+    color: #2F3061;
+    margin-left: 3%;
+    font-weight: 700;
+    
+}
+
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    margin: 10px;
+
+}
+
+.ai{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    transition: transform .7s ease-in-out;
+}
+.ai:hover {
+        transform: rotate(360deg);
+      }
+
+.ps{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    transition: transform .7s ease-in-out;
+}
+.ps:hover {
+        transform: rotate(360deg);
+      }
+.html{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    transition: transform .7s ease-in-out;
+}
+.html:hover {
+        transform: rotate(360deg);
+      }
+.css{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    transition: transform .7s ease-in-out;
+}
+.css:hover {
+        transform: rotate(360deg);
+      }
+
+
+.js{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    transition: transform .7s ease-in-out;
+}
+.js:hover {
+        transform: rotate(360deg);
+      }
+
+.familyContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.myFamily{
+    width: 500px;
+    height: 90px;
+    background-color: #8A8E91;
+    border-radius: 10px;
+    align-self: center;
+}
+.familyText{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-size: 68px;
+    color: #2F3061;
+    font-weight: 700;
+    text-align: center;
+}
+.familyPic{
+    width: 877px;
+    height: 605px;
+    border-radius: 20px;
+    border: 80px solid #2F3061;
+    margin-top: 60px;
+    align-self: center;
+   
+    
+}
+
+
+.familyPic:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 3s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+
+.projectsContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.projectTitle{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-size: 68px;
+    color: #EAEBEB;
+    font-weight: 700;
+    text-align: center;
+    padding: 40px;
+}
+
+
+
+.projectBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 1281px;
+    height: 355px;
+    background-color: #4F5154;
+    border-radius: 20px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.project1{
+    width: 300;
+    height: 330px;
+    border-radius: 10px;
+    border: 20px solid #8A8E91;
+}
+.project1:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 3s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+.project2{
+    width: 300;
+    height: 330px;
+    border-radius: 10px;
+    border: 20px solid #8A8E91;
+}
+.project2:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 3s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+.project3{
+    width: 300;
+    height: 330px;
+    border-radius: 10px;
+    border: 20px solid #8A8E91;
+}
+.project3:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 3s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+.footer{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 1440px;
+  height: 291px;
+  background-color: #2F3061;  
+  margin-top: 200px;
+}
+
+.socials{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-size: 34px;
+    color: #EAEBEB;
+    font-weight: 700;
+    text-align: center;
+    padding: 40px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.facebook{
+    width: 100px;
+    height: 100px;
+}
+
+.github{
+    width: 100px;
+    height: 100px;
+}
+
+.instagram{
+    width: 100px;
+    height: 100px;
+}
+
+.github:hover{
+    transform: scale(1.5);
+}
+.facebook:hover{
+    transform: scale(1.5);
+}
+.instagram:hover{
+    transform: scale(1.5);
+}
+@font-face {
+    font-family: Nunito;
+    src: url(Nunito-VariableFont_wght.tff);
+  }
+  
