@@ -46,6 +46,10 @@ body {
     align-items: center;
 }
 
+a {
+    text-decoration: none;
+}
+
 .nav {
     display: flex;
     position: sticky;
@@ -83,7 +87,6 @@ body {
 
 .nav-items ul li:hover {
     transform: scale(1.1);
-    text-decoration: underline white solid;
 }
 
 .nav img {
@@ -106,10 +109,6 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-}
-
-#card-column {
-    background-image: urll("https://a.1stdibscdn.com/takashi-murakami-prints-works-on-paper-takashi-murakami-kanye-west-2007-takashi-murakami-louis-vuitton-for-sale/a_3543/a_84250421625782057011/Murakami_Folding_Invite_2_master.jpg?width=1500");
 }
 
 .heading-1 {
