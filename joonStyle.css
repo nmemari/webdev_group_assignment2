@@ -182,7 +182,7 @@ a {
     display: block;
     width: 90%;
     height: 60vh;
-    background-color: #252525;
+    background-color: #343434;
     padding: 20px 30px;
     border-radius: 25px;
     align-items: center;
@@ -299,7 +299,7 @@ a {
 
 .education-text{
     background-color: white; 
-    max-width: 30%;
+    width: 30%;
     height: 70vh;
     border-radius: 25px;
     padding: 25px;
@@ -319,7 +319,6 @@ a {
 .profile-pic-2{
     max-width: 40%;
     max-height: 70vh;
-    min-height: 60vh;
     border-radius: 25px;
     border: 0.2rem solid #fff;
     border-radius: 2rem;
@@ -560,7 +559,7 @@ a {
 
 .horizontal-project-img {
     width: 38.5%;
-    height: 38.5vh;
+    height: 42.5vh;
     margin: 1vh;
     transition: 1s ease;
     border: 0.2rem solid #fff;
@@ -631,3 +630,131 @@ a {
     transition: 1s ease;
 }
 
+ 
+@media (max-width: 1100px) {
+
+    h1 {
+        font-size: 4vh;
+    }
+
+    h2 {
+        font-size: 2vh;
+    }
+
+    p, li {
+        font-size: 2vh;
+    }
+
+    .text {
+        font-size: 5vh;
+    }
+
+    #card-column {
+        flex-direction: column;
+    }
+
+    #interest-card {
+        height: 50vh
+    }
+
+    .dots, .stars {
+        display: none;
+    }
+
+    .profile-pic-1 {
+        width: 40%;
+    }
+
+    .stars, .dots {
+        display: none;
+    }
+
+    .profile-pic-2 {
+        max-width: 45%;
+        max-height: 50vh;
+    }
+
+    .profile-pic-3 {
+        max-height: 27.5vh;
+    }
+
+    .education-text {
+        font-size: 2vh;
+        width: 45%;
+        height: 50vh;
+    }
+
+    .hobbies-text {
+        max-width: 45%;
+        min-width: 40%;
+    }
+
+    .rectangle-4 {
+        width: 100%;
+        height: 30vh;
+    }
+
+    .background-5 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .container {
+        width: 90%;
+        margin-bottom: 3vh;
+    }
+
+    .grid-container {
+        margin-top: 5vh;
+        margin-left: 10vh;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .name-pic {
+        max-width: 45vh;
+        margin-top: -5vh;
+        margin-bottom: -2vh;
+        z-index: 600;
+    }
+
+    .interest-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .interest-text {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .covers {
+        max-width: 25vh;
+        max-height: 25vh;
+    }
+
+    #hide-cover {
+        display: none;
+    }
+
+    .icon-desc {
+        margin-left: 5.5vh;
+    }
+
+    .skill-box {
+        height: 5.5vh;
+    }
+
+    .skill-per {
+        border: 0.1rem solid #fff;
+        border-radius: 0.5rem;
+        box-shadow: 
+        0 0 .1rem #fff,
+        0 0 .1rem #fff,
+        0 0 1rem dodgerblue,
+        0 0 0.4rem dodgerblue,
+        0 0 1.4rem dodgerblue,
+        inset 0 0 0.7rem dodgerblue;
+    }
+}
