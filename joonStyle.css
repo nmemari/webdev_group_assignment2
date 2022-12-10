@@ -58,20 +58,26 @@ a {
     justify-content: space-around;
     align-items: center;
     background-color: #2F3061;
-    margin: 0px;
     padding: 10px;
     z-index: 2;
     font-size: 20px;
     font-weight: bolder; 
+    overflow: hidden;
 }
+
 .nav-items{
     color: #EAEBEB;
 }
 
-.nav-text {
-    color: #EAEBEB;
-    font-size: 20px;
-}
+.nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
 
 .nav-items ul {
     display: flex;
@@ -82,7 +88,7 @@ a {
 
 .nav-items ul li {
     transition: 300ms;
-    margin-left: 50px;
+
 }
 
 .nav-items ul li:hover {
@@ -140,7 +146,7 @@ a {
 
 .profile-pic-1{
     max-width: 60%;
-    min-height: 70vh;
+    max-height: 70vh;
     border-radius: 25px;
     margin-top: -10vh;
     margin-left: 25vh;
@@ -662,7 +668,7 @@ a {
     }
 
     .profile-pic-1 {
-        width: 40%;
+        width: 50%;
     }
 
     .stars, .dots {
@@ -738,10 +744,6 @@ a {
         display: none;
     }
 
-    .icon-desc {
-        margin-left: 5.5vh;
-    }
-
     .skill-box {
         height: 5.5vh;
     }
@@ -756,5 +758,27 @@ a {
         0 0 0.4rem dodgerblue,
         0 0 1.4rem dodgerblue,
         inset 0 0 0.7rem dodgerblue;
+    }
+
+    .projects-card {
+        height: 30%;
+    }
+
+    .project-image {
+        width: 30%;
+        height: 70%;
+    }
+
+    .horizontal-project-img {
+        height: 40%;
+    }
+
+    .socials-card {
+        height: 25vh;
+    }
+
+    .icon {
+        width: 5vh;
+        height: 5vh;
     }
 }
